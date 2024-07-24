@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    background-color:aqua;
+    height: 300px;
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(140, 134, 134);
+    margin: auto;
+    padding:20px;
+}
+.container #temp{
+font-size: 1.5rem;
+color:rgb(0, 153, 255)
+}
+#in{
+    width:150px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    text-align: center;
+   
+}
+.input{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+   
+}
+#btn{
+    padding: 8px;
+    border-radius: 7px;
+    border:none;
+    margin: 20px 0px 20px 0px;
+    background-color: red;
+    color:white
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0,0.8);
+}
